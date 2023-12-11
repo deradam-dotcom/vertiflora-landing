@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ headerData }) => {
           <Col></Col>
           <Col
             md={{ span: 3, offset: 2 }}
-            className="flex flex-col items-center h-auto gap-[32px] mx-4 xs:mx-2 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-12"
+            className="flex flex-col items-center h-auto gap-[32px] mx-3 xs:mx-0"
           >
             <span className="font-tanker font-normal text-white text-[28px] lg:text-[70px] text-center tracking-[0] leading-[42px] lg:leading-[72px]">
               {headerData.title}

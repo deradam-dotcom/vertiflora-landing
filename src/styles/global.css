@@ -45,6 +45,9 @@ p {
   margin-top: 15px;
 }
 
+button.navbar-toggler.collapsed {
+  margin-top: 10px !important;
+}
 .navbar-toggler-icon {
   background-image: url('../images/Icons/hamburger-icon.svg') !important;
 }
