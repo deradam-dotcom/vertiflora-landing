@@ -29,7 +29,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ aboutUsData }) => {
         </Col>
         <Col
           md={{ span: 3, offset: 2 }}
-          className="font-tanker font-normal text-text text-[36px] lg:text-[50px] tracking-[0] leading-[42px] lg:leading-[52px] mt-1"
+          className="font-tanker font-normal text-text text-[36px] lg:text-[50px] tracking-[0] leading-[42px] lg:leading-[52px] ml-5 lg:ml-0 mt-1"
         >
           <ContentfulRichText
             json={leadData}
