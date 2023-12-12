@@ -28,11 +28,11 @@ const ReferencesSlider = () => {
   };
 
   return (
-    <div className="h-fit bg-section mt-5 pt-16 text-center pb-5">
+    <div className="h-auto w-full bg-section mt-[59px] lg:mt-[84px] pt-[40px] lg:pt-[70px] text-center pb-[0px] lg:pb-[70px]">
       <span className="font-sharp font-normal text-black text-[16px] whitspace-nowrap">
         REFERENCES
       </span>
-      <Container className="pt-9 pb-5 px-0">
+      <Container className="pt-[25px] lg:pt-[34px] px-0">
         <Row className="relative">
           <Slider {...settings}>
             <Col className="image-container text-center mr-5 cursor-pointer">

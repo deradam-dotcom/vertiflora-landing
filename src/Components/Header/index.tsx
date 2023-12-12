@@ -21,12 +21,12 @@ const Header: React.FC<HeaderProps> = ({ headerData }) => {
           <Col></Col>
           <Col
             md={{ span: 3, offset: 2 }}
-            className="flex flex-col items-center h-auto gap-[32px] mx-3 xs:mx-0"
+            className="flex flex-col items-center h-auto gap-[32px]  mx-3"
           >
-            <span className="font-tanker font-normal text-white text-[28px] lg:text-[70px] text-center tracking-[0] leading-[42px] lg:leading-[72px]">
+            <span className="font-tanker font-normal text-white text-[38px] lg:text-[70px] text-center tracking-[0] leading-[42px] lg:leading-[72px]">
               {headerData.title}
             </span>
-            <span className="relative font-sharp font-normal text-lead text-[12px] lg:text-[16px] text-center tracking-[0] leading-[14px] lg:leading-[22px]">
+            <span className="relative font-sharp font-medium text-lead text-[14px] lg:text-[16px] text-center tracking-[0] leading-[14px] lg:leading-[22px]">
               {headerData.simpleSubtitle}
             </span>
             <CtaButton

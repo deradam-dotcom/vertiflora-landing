@@ -4,12 +4,18 @@
 
 @import './fonts.css';
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .body-container {
   background-image: url('../images/leaves.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: auto;
-  width: 100%
+  width: 100%;
+
 }
 
 .card-container {
@@ -27,11 +33,10 @@ p {
   display: block;
   position: absolute;
   width: 100px !important;
-    bottom: 250px;
+  bottom: 250px;
     right: 300px;
     z-index: 1;
 }
-
 /* Customize Responsive Navbar */
 .nav-link {
   color: #b1ffa4 !important;
@@ -43,11 +48,13 @@ p {
 
 .navbar-toggler {
   margin-top: 15px;
+  margin-left: 24px;
 }
 
 button.navbar-toggler.collapsed {
   margin-top: 10px !important;
 }
+
 .navbar-toggler-icon {
   background-image: url('../images/Icons/hamburger-icon.svg') !important;
 }
@@ -59,19 +66,21 @@ button.navbar-toggler.collapsed {
 .service-card {
   margin-top: 20px !important;
 }
-  
-  .custom-mobileNav {
-    display: block;
-    position: absolute;
-    top: 0;
-    margin-top: 98px;
-    height: 100vh;
-    width: 100%;
-    transition: left 0.4s ease-in-out;
-    background-color: #fff;
-    z-index: 1;
-  }
+
+.custom-mobileNav {
+  display: block;
+  position: absolute;
+  top: 0;
+  margin-top: 98px;
+  height: 100vh;
+  width: 100%;
+  transition: left 0.4s ease-in-out;
+  background-color: #fff;
+  z-index: 1;
+}
+
 .slider-controller {
   display: none;
 }
 }
+

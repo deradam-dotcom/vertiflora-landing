@@ -14,9 +14,12 @@ const CustomNavbar = () => {
       expand="lg"
       bg="none"
       variant="light"
-      className="text-right text-lg-left align-items-start px-4 pt-4"
+      className="text-right text-lg-left align-items-start pt-4"
     >
-      <Navbar.Brand href="/" className="d-none d-md-block ml-auto">
+      <Navbar.Brand
+        href="/"
+        className="d-none d-md-block pl-[30px] pt-[6px] m-0"
+      >
         <StaticImage
           height={60}
           src="../../images/Brand/logo.png"
@@ -45,7 +48,7 @@ const CustomNavbar = () => {
         <NavMenu />
       </div>
       {/* Brand for mobile view */}
-      <div className="ml-auto d-lg-none">
+      <div className="ml-auto d-lg-none mr-14">
         <Navbar.Brand href="/">
           <StaticImage
             height={60}
